@@ -1,0 +1,111 @@
+/*sliderbox css*/
+.sliderbox, .contact-details, .contact-details .alignfull img, .services-section{
+  width: auto;
+  height: auto;
+}
+.sliderbox .sliderbox-content {
+  position: relative;
+  left: 10%;
+}
+.wp-block-buttons.alignleft, .contact-details figure, .services-box .aligncenter{
+  border: none !important;
+}
+.sliderbox h1{
+  font-weight: 900;
+}
+.sliderbox a.wp-block-button__link.has-white-color.has-text-color{
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: solid 2px #fff;
+  padding: 12px 0 12px 15px;
+  font-weight: bold;
+  color: #fff !important;
+}
+.sliderbox a.wp-block-button__link:after {
+  content: '\f105';
+  background: #252525;
+  padding: 14px 18px;
+  border-radius: 50%;
+  font-size: 15px;
+  position: relative;
+  left: 5px;
+  color: #fff;
+  top: 1px;
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free';
+}
+/*contact details section*/
+.styling-box {
+  padding: 0 !important;
+  border-right: solid 1px #e9e9e9;
+}
+/*services section*/
+.services-section h2:before {
+  content: "";
+  background: url(../images/title-image.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 50px;
+  display: block;
+  width: 100%;
+}
+.services-section h2:after{
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: #c28851;
+  display: block;
+  margin-top: 10px;
+}
+.services-content{
+  margin: 0 auto !important;
+}
+.services-img{
+  border-radius: 50%;
+  background-color: #000;
+  padding: 20px 20px;
+  width: 100px;
+  height: 100px;
+  height: 100px;
+  margin: -60px auto 13px;
+  z-index: 99;
+}
+.services-box:hover .services-img{
+  background-color: #c28851;
+}
+.services-box:hover h4{
+  color: #c28851;
+}
+.services-box h4 strong {
+  font-weight: 700;
+}
+/*Responsive css*/
+@media screen and (max-width: 768px){
+  .sliderbox p{
+    display: none;
+  }
+  .sliderbox h1{
+    font-size: 30px !important;
+  }
+  .sliderbox .sliderbox-content{
+    position: static;
+  }
+  .sliderbox .wp-block-columns.alignfull{
+    margin: 0;
+  }
+  .contact-details h2, .contact-details p{
+    text-align: center !important;
+  }
+  .services-content .wp-block-column{
+    margin-bottom: 4em;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 768px){
+  .services-col.mb-0 {
+    flex-basis: 100% !important;
+    border-bottom: 1px solid #e9e9e9 !important;
+  }
+  .styling-box{
+    border-right: none !important;
+  }
+}

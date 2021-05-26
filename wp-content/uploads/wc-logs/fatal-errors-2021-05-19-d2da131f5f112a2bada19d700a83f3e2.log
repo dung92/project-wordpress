@@ -1,0 +1,58 @@
+2021-05-19T17:23:02+00:00 CRITICAL Uncaught Error: Class "SoapClient" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-payment-gateway-for-piraeus-bank\wooshop-piraeus.php:532
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-payment-gateway-for-piraeus-bank\wooshop-piraeus.php(699): WC_Piraeusbank_Gateway->generate_piraeusbank_form(52)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_Piraeusbank_Gateway->receipt_page(52)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\checkout\order-receipt.php(44): do_action('woocommerce_rec...', 52)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(208): wc_get_template('checkout/order-...', Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(59): WC_Shortcode_Checkout::order_pay(52)
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#10 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_ch...')
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#16 C:\xampp\htdocs\wordpress\wp-content\themes\flourish-lite\content-page.php(15): the_content()
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#20 C:\xampp\htdocs\wordpress\wp-content\themes\flourish-lite\page.php(19): get_template_part('content', 'page')
+#21 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-payment-gateway-for-piraeus-bank\wooshop-piraeus.php on line 532
+
+2021-05-19T17:23:03+00:00 CRITICAL Uncaught Error: Class "SoapClient" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-payment-gateway-for-piraeus-bank\wooshop-piraeus.php:532
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-payment-gateway-for-piraeus-bank\wooshop-piraeus.php(699): WC_Piraeusbank_Gateway->generate_piraeusbank_form(52)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_Piraeusbank_Gateway->receipt_page(52)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\checkout\order-receipt.php(44): do_action('woocommerce_rec...', 52)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(208): wc_get_template('checkout/order-...', Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(59): WC_Shortcode_Checkout::order_pay(52)
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#10 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(343): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): do_shortcode('[woocommerce_ch...')
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#15 C:\xampp\htdocs\wordpress\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#16 C:\xampp\htdocs\wordpress\wp-content\themes\flourish-lite\content-page.php(15): the_content()
+#17 C:\xampp\htdocs\wordpress\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#19 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#20 C:\xampp\htdocs\wordpress\wp-content\themes\flourish-lite\page.php(19): get_template_part('content', 'page')
+#21 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woo-payment-gateway-for-piraeus-bank\wooshop-piraeus.php on line 532
+

@@ -1,0 +1,53 @@
+Version 1.3.1
+Minor Backend Tweaks
+Jquery Update
+
+Version 1.3.0
+Security Fixes ( wp nonce check and user verification )
+Fixed display comments on blog posts
+
+Version 1.2.8
+Security Fix
+Polylnag compatibility fix
+Removed epsilon submodule and included directly in theme
+Added class check sanitization
+
+
+Version 1.2.7
+Improved accesibility with keyboard navigation
+
+Version 1.2.6
+Minor Backend Tweaks
+Changed notice style
+Removed demo content files from theme
+
+Version 1.2.5
+Minor Fixes
+
+Version 1.2.4
+Added ShortPixel as a recommended plugin.
+Fixed Modula recommendation bug.
+
+Version 1.2.3
+Improved Welcome Screen
+Fixed Bug #1 ( https://github.com/MachoThemes/brilliance-lite/issues/1 )
+Fixed Bug #3 ( https://github.com/MachoThemes/brilliance-lite/issues/3 )
+Fixed Bug #6 ( https://github.com/MachoThemes/brilliance-lite/issues/6 )
+Added edit links to portfolio items
+Removed Clients' descriptions setting
+
+Version 1.1.0
+Feature - Added support for services
+Feature - Added support for clients
+Feature - Added support for testimonials
+Tweaks - Added better links in the welcome page
+
+Version 1.0.7
+Tweaks - Added better handling of multilingual content
+
+Version 1.0.6
+Feature - Added multilingual support
+Tweaks - Minor fixes to design
+
+Version 1.0.5
+Theme release!

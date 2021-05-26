@@ -1,0 +1,110 @@
+/**
+ * Stylesheet for custom styles - This will be useful to override styles from parent theme.
+ *
+ */
+
+body,
+button,
+input,
+select,
+textarea,
+body .secondary-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.main-navigation a,
+body .primary-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home.slider-enabled #masthead {
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home.slider-enabled.admin-bar #masthead {
+    top: 32px;
+}
+
+.home.slider-enabled .top-header {
+    background: rgba(0, 0, 0, 0.45);
+    border-bottom: 1px solid;
+}
+
+.site .site-branding .site-title {
+    letter-spacing: 0;
+}
+
+.site .main-navigation .menu li a {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 992px) {
+    .home.slider-enabled .site-branding .site-title a,
+    .home.slider-enabled .main-navigation .menu ul > li > a,
+    .home.slider-enabled .main-navigation .social-icons ul a:after,
+    .home.slider-enabled .main-navigation .icon-search,
+    .home.slider-enabled .header-middle .meta-info-title,
+    .home.slider-enabled .header-middle .meta-info-col .meta-info-child,
+    .home.slider-enabled .header-middle .meta-info-col .meta-info-child a {
+        color: #fff;
+    }
+
+    .home.slider-enabled .site-branding .site-description {
+        background: #fff;
+        border-color: #fff;
+        color: #000;
+    }
+
+    .home.slider-enabled .header-middle .meta-info-icon svg:not(:root) {
+        fill: #fff;
+    }
+
+    .home.slider-enabled .top-header,
+    .home.slider-enabled .main-navigation .icon-search,
+    .home.slider-enabled .popup-search .search-form label .search-field {
+        border-color: #e4e4e4;
+    }
+
+    .home.slider-enabled .twp-slider .single-slide {
+        height: 650px;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .home.slider-enabled.admin-bar #masthead {
+        background: #fff;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .home.slider-enabled.admin-bar #masthead {
+        top: inherit;
+    }
+
+    .home.slider-enabled .top-header {
+        background: #fff;
+        border-bottom: 0;
+    }
+}
+
+.site .overlay-bg,
+.site .single-slide:after {
+    background: -webkit-linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%);
+    background: linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%);
+    filter: alpha(opacity=70);
+    opacity: 0.70;
+}
+
+.section-about .entry-title-1 {
+    background-color: rgba(0, 0, 0, 0.54);
+}

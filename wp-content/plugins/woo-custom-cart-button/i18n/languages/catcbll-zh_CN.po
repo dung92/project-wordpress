@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Add to Cart Button Label and Link 1.2.1\n"
+"POT-Creation-Date: 2021-02-11 16:29+0530\n"
+"PO-Revision-Date: 2021-02-11 16:30+0530\n"
+"Last-Translator: \n"
+"Language-Team: hwxteam\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: catcbll.php:172
+msgid "Poor"
+msgstr "较差的"
+
+#: catcbll.php:172
+msgid "Works"
+msgstr "作品"
+
+#: catcbll.php:172
+msgid "Good"
+msgstr "好"
+
+#: catcbll.php:172
+msgid "Great"
+msgstr "大"
+
+#: catcbll.php:172
+msgid "Fantastic!"
+msgstr "太棒了！"
+
+#: catcbll.php:184
+msgid "Get Pro Demo"
+msgstr "获取专业演示"
+
+#: catcbll.php:184
+msgid "Live Demo"
+msgstr "现场演示"
+
+#: catcbll.php:202
+msgid "Settings"
+msgstr "设定值"
+
+#: catcbll.php:266
+msgid "Clear"
+msgstr "明确"
+
+#: catcbll.php:267
+msgid "Clear color"
+msgstr "颜色清晰"
+
+#: catcbll.php:268
+msgid "Default"
+msgstr "默认"
+
+#: catcbll.php:269
+msgid "Select default color"
+msgstr "选择默认颜色"
+
+#: catcbll.php:270
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: catcbll.php:271
+msgid "Color value"
+msgstr "颜色值"
+
+#: include/admin/wcatcbll_general_settings.php:13
+#: include/admin/wcatcbll_general_settings.php:15
+msgid "Add to Cart"
+msgstr "添加到购物车"
+
+#: include/admin/wcatcbll_general_settings.php:21
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: include/admin/wcatcbll_general_settings.php:22
+#: include/admin/wcatcbll_setting_shortcode.php:6
+msgid "Shortcode"
+msgstr "短代码"
+
+#: include/admin/wcatcbll_general_settings.php:33
+msgid "Cart Button's Settings"
+msgstr "购物车按钮的设置"
+
+#: include/admin/wcatcbll_general_settings.php:38
+msgid "Both"
+msgstr "都"
+
+#: include/admin/wcatcbll_general_settings.php:49
+msgid "Default Add to cart per Product"
+msgstr "默认每个产品添加到购物车"
+
+#: include/admin/wcatcbll_general_settings.php:60
+msgid "Custom Button per Product"
+msgstr "每个产品的自定义按钮"
+
+#: include/admin/wcatcbll_general_settings.php:71
+msgid "Custom button position"
+msgstr "自定义按钮位置"
+
+#: include/admin/wcatcbll_general_settings.php:72
+msgid "custom button position"
+msgstr "自定义按钮位置"
+
+#: include/admin/wcatcbll_general_settings.php:87
+msgid "Custom button alignment"
+msgstr "自定义按钮对齐"
+
+#: include/admin/wcatcbll_general_settings.php:88
+msgid "custom button alignment"
+msgstr "自定义按钮对齐"
+
+#: include/admin/wcatcbll_general_settings.php:104
+msgid "Custom Button Display"
+msgstr "自定义按钮显示"
+
+#: include/admin/wcatcbll_general_settings.php:109
+msgid "Global"
+msgstr "全球"
+
+#: include/admin/wcatcbll_general_settings.php:120
+msgid "Shop"
+msgstr "店"
+
+#: include/admin/wcatcbll_general_settings.php:131
+msgid "Single Product"
+msgstr "单品"
+
+#: include/admin/wcatcbll_general_settings.php:142
+#: include/wcatcbll_inscrpt.php:46
+msgid "Open link in new tab"
+msgstr "在新的标签页打开链接"
+
+#: include/admin/wcatcbll_general_settings.php:143
+#: include/wcatcbll_inscrpt.php:47
+msgid "If checkbox is check then button link open in new tab"
+msgstr "如果复选框已选中，则按钮链接将在新选项卡中打开"
+
+#: include/admin/wcatcbll_general_settings.php:157
+msgid "Custom Button Style"
+msgstr "自定义按钮样式"
+
+#: include/admin/wcatcbll_general_settings.php:162
+msgid "Text Font Size"
+msgstr "文字字型大小"
+
+#: include/admin/wcatcbll_general_settings.php:173
+msgid "Border Size"
+msgstr "边框尺寸"
+
+#: include/admin/wcatcbll_general_settings.php:184
+msgid "Border Radius"
+msgstr "边界半径"
+
+#: include/admin/wcatcbll_general_settings.php:195
+msgid "Button Background"
+msgstr "按钮背景"
+
+#: include/admin/wcatcbll_general_settings.php:203
+msgid "Text Font Color"
+msgstr "文字字体颜色"
+
+#: include/admin/wcatcbll_general_settings.php:211
+msgid "Border color"
+msgstr "边框颜色"
+
+#: include/admin/wcatcbll_general_settings.php:219
+msgid "Hover Color"
+msgstr "悬停颜色"
+
+#: include/admin/wcatcbll_general_settings.php:227
+msgid "Button Padding"
+msgstr "按钮填充"
+
+#: include/admin/wcatcbll_general_settings.php:228
+msgid "Button padding"
+msgstr "按钮填充"
+
+#: include/admin/wcatcbll_general_settings.php:235
+msgid "Vertically"
+msgstr "垂直"
+
+#: include/admin/wcatcbll_general_settings.php:239
+msgid "Horizontally"
+msgstr "水平地"
+
+#: include/admin/wcatcbll_general_settings.php:246
+msgid "Button Margin"
+msgstr "按钮保证金"
+
+#: include/admin/wcatcbll_general_settings.php:247
+msgid "Button margin"
+msgstr "按钮边距"
+
+#: include/admin/wcatcbll_general_settings.php:254
+msgid "Top"
+msgstr "最佳"
+
+#: include/admin/wcatcbll_general_settings.php:258
+msgid "Right"
+msgstr "对"
+
+#: include/admin/wcatcbll_general_settings.php:262
+msgid "Bottom"
+msgstr "底部"
+
+#: include/admin/wcatcbll_general_settings.php:266
+msgid "Left"
+msgstr "剩下"
+
+#: include/admin/wcatcbll_general_settings.php:273
+msgid "Button icon"
+msgstr "按钮图示"
+
+#: include/admin/wcatcbll_general_settings.php:287
+msgid "Button icon Position"
+msgstr "按钮图标位置"
+
+#: include/admin/wcatcbll_general_settings.php:298
+msgid "2D Transitions"
+msgstr "2D过渡"
+
+#: include/admin/wcatcbll_general_settings.php:298
+msgid "2D Transitions hover on Add to Cart Button"
+msgstr "将2D过渡悬停在“添加到购物车”按钮上"
+
+#: include/admin/wcatcbll_general_settings.php:312
+msgid "Background Transitions"
+msgstr "背景转换"
+
+#: include/admin/wcatcbll_general_settings.php:312
+msgid "Add to Cart Button Background Transitions on hover"
+msgstr "悬停时添加到购物车按钮背景过渡"
+
+#: include/admin/wcatcbll_general_settings.php:332
+msgid " For Pro version demo, please"
+msgstr "对于专业版演示，请"
+
+#: include/admin/wcatcbll_general_settings.php:332
+msgid "Click Here"
+msgstr "点击这里"
+
+#: include/admin/wcatcbll_setting_shortcode.php:17
+msgid "Anywhere you can show product using this shortcode"
+msgstr "您可以在任何可以使用此简码显示产品的地方"
+
+#: include/functions.php:9
+msgid "CATCBNL"
+msgstr "卡特彼勒"
+
+#: include/functions.php:9 include/wcatcbll_widget.php:18
+msgid "Custom Cart Button"
+msgstr "自定义购物车按钮"
+
+#: include/wcatcbll_inscrpt.php:26
+msgid "There are no exporting data in your selection fields"
+msgstr "您的选择字段中没有导出数据"
+
+#: include/wcatcbll_inscrpt.php:41 include/wcatcbll_metabox.php:34
+#: include/wcatcbll_metabox.php:53
+msgid "Label"
+msgstr "标签"
+
+#: include/wcatcbll_inscrpt.php:42 include/wcatcbll_metabox.php:38
+#: include/wcatcbll_metabox.php:57
+msgid "Url"
+msgstr "网址"
+
+#: include/wcatcbll_inscrpt.php:43 include/wcatcbll_metabox.php:36
+#: include/wcatcbll_metabox.php:55
+msgid "Add To Basket or Shop Now or Shop on Amazon"
+msgstr "添加到购物篮或立即购物或在亚马逊上购物"
+
+#: include/wcatcbll_inscrpt.php:44 include/wcatcbll_metabox.php:36
+#: include/wcatcbll_metabox.php:55
+msgid "This text will be shown on the button linking to the external product"
+msgstr "该文本将显示在链接到外部产品的按钮上"
+
+#: include/wcatcbll_inscrpt.php:45 include/wcatcbll_metabox.php:39
+#: include/wcatcbll_metabox.php:59
+msgid "Enter the external URL to the product"
+msgstr "输入产品的外部URL"
+
+#: include/wcatcbll_metabox.php:4
+msgid "Product Custom Button Settings"
+msgstr "产品自定义按钮设置"
+
+#: include/wcatcbll_metabox.php:25 include/wcatcbll_metabox.php:46
+msgid "Add New"
+msgstr "添新"
+
+#: include/wcatcbll_metabox.php:30 include/wcatcbll_metabox.php:50
+msgid "Remove"
+msgstr "去掉"
+
+#: include/wcatcbll_settings.php:22
+msgid "You do not have sufficient permissions to access this page"
+msgstr "您没有足够的权限访问此页面"
+
+#: include/wcatcbll_widget.php:22
+msgid "Wcatcbll Product show"
+msgstr "Wcatcbll产品展示"
+
+#: include/wcatcbll_widget.php:233
+msgid "New title"
+msgstr "新标题"
+
+#: include/wcatcbll_widget.php:246
+msgid "Number of products to show"
+msgstr "产品展示数量"
+
+#~ msgid "Please add review ,subscribe our youtube channel and get pro feature plugin"
+#~ msgstr "请添加评论，订阅我们的YouTube频道并获取专业功能插件"
+
+#~ msgid "Support"
+#~ msgstr "支持"
+
+#~ msgid "I would like to review this plugin"
+#~ msgstr "我想查看这个插件"
+
+#~ msgid "I have ideas to improve this plugin"
+#~ msgstr "我有改进此插件的想法"
+
+#~ msgid "I need help with this plugin"
+#~ msgstr "我需要这个插件的帮助"
+
+#~ msgid "Enter your email address.."
+#~ msgstr "输入你的电子邮箱地址.."
+
+#~ msgid "Leave plugin developers any feedback here.."
+#~ msgstr "在这里给插件开发者任何反馈。"
+
+#~ msgid "I agree that by clicking the send button below my email address and comments will be send to a ServMask server"
+#~ msgstr "我同意通过单击我的电子邮件地址下面的发送按钮，并将评论发送到ServMask服务器"
+
+#~ msgid "Send"
+#~ msgstr "发送"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "General"
+#~ msgstr "一般"

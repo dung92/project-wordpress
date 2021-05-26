@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Add to Cart Button Label and Link 1.2.1\n"
+"POT-Creation-Date: 2021-02-11 16:28+0530\n"
+"PO-Revision-Date: 2021-02-11 16:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: hwxteam\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: catcbll.php:172
+msgid "Poor"
+msgstr "Плохо"
+
+#: catcbll.php:172
+msgid "Works"
+msgstr "Работы"
+
+#: catcbll.php:172
+msgid "Good"
+msgstr "Хорошо"
+
+#: catcbll.php:172
+msgid "Great"
+msgstr "Отлично"
+
+#: catcbll.php:172
+msgid "Fantastic!"
+msgstr "Фантастический!"
+
+#: catcbll.php:184
+msgid "Get Pro Demo"
+msgstr "Получить Pro Demo"
+
+#: catcbll.php:184
+msgid "Live Demo"
+msgstr "Живая демонстрация"
+
+#: catcbll.php:202
+msgid "Settings"
+msgstr "Настройки"
+
+#: catcbll.php:266
+msgid "Clear"
+msgstr "Очистить"
+
+#: catcbll.php:267
+msgid "Clear color"
+msgstr "Чистый цвет"
+
+#: catcbll.php:268
+msgid "Default"
+msgstr "По умолчанию"
+
+#: catcbll.php:269
+msgid "Select default color"
+msgstr "Выбрать цвет по умолчанию"
+
+#: catcbll.php:270
+msgid "Select Color"
+msgstr "Выбрать цвет"
+
+#: catcbll.php:271
+msgid "Color value"
+msgstr "Значение цвета"
+
+#: include/admin/wcatcbll_general_settings.php:13
+#: include/admin/wcatcbll_general_settings.php:15
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: include/admin/wcatcbll_general_settings.php:21
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: include/admin/wcatcbll_general_settings.php:22
+#: include/admin/wcatcbll_setting_shortcode.php:6
+msgid "Shortcode"
+msgstr "Короткий номер"
+
+#: include/admin/wcatcbll_general_settings.php:33
+msgid "Cart Button's Settings"
+msgstr "Настройки кнопки корзины"
+
+#: include/admin/wcatcbll_general_settings.php:38
+msgid "Both"
+msgstr "Оба"
+
+#: include/admin/wcatcbll_general_settings.php:49
+msgid "Default Add to cart per Product"
+msgstr "По умолчанию Добавить в корзину для каждого продукта"
+
+#: include/admin/wcatcbll_general_settings.php:60
+msgid "Custom Button per Product"
+msgstr "Пользовательская кнопка для каждого продукта"
+
+#: include/admin/wcatcbll_general_settings.php:71
+msgid "Custom button position"
+msgstr "Пользовательская позиция кнопки"
+
+#: include/admin/wcatcbll_general_settings.php:72
+msgid "custom button position"
+msgstr "пользовательская позиция кнопки"
+
+#: include/admin/wcatcbll_general_settings.php:87
+msgid "Custom button alignment"
+msgstr "Пользовательское выравнивание кнопок"
+
+#: include/admin/wcatcbll_general_settings.php:88
+msgid "custom button alignment"
+msgstr "настраиваемое выравнивание кнопок"
+
+#: include/admin/wcatcbll_general_settings.php:104
+msgid "Custom Button Display"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:109
+msgid "Global"
+msgstr "Глобальный"
+
+#: include/admin/wcatcbll_general_settings.php:120
+msgid "Shop"
+msgstr "Магазин"
+
+#: include/admin/wcatcbll_general_settings.php:131
+msgid "Single Product"
+msgstr "Один продукт"
+
+#: include/admin/wcatcbll_general_settings.php:142
+#: include/wcatcbll_inscrpt.php:46
+msgid "Open link in new tab"
+msgstr "Открыть ссылку в новой вкладке"
+
+#: include/admin/wcatcbll_general_settings.php:143
+#: include/wcatcbll_inscrpt.php:47
+msgid "If checkbox is check then button link open in new tab"
+msgstr "Если флажок установлен, ссылка на кнопку открывается в новой вкладке"
+
+#: include/admin/wcatcbll_general_settings.php:157
+msgid "Custom Button Style"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:162
+msgid "Text Font Size"
+msgstr "Размер шрифта текста"
+
+#: include/admin/wcatcbll_general_settings.php:173
+msgid "Border Size"
+msgstr "Размер границы"
+
+#: include/admin/wcatcbll_general_settings.php:184
+msgid "Border Radius"
+msgstr "Пограничный радиус"
+
+#: include/admin/wcatcbll_general_settings.php:195
+msgid "Button Background"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:203
+msgid "Text Font Color"
+msgstr "Размер шрифта текста"
+
+#: include/admin/wcatcbll_general_settings.php:211
+msgid "Border color"
+msgstr "Цвет границы"
+
+#: include/admin/wcatcbll_general_settings.php:219
+msgid "Hover Color"
+msgstr "Цвет наведения"
+
+#: include/admin/wcatcbll_general_settings.php:227
+msgid "Button Padding"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:228
+msgid "Button padding"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:235
+msgid "Vertically"
+msgstr "Вертикально"
+
+#: include/admin/wcatcbll_general_settings.php:239
+msgid "Horizontally"
+msgstr "Горизонтально"
+
+#: include/admin/wcatcbll_general_settings.php:246
+msgid "Button Margin"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:247
+msgid "Button margin"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:254
+msgid "Top"
+msgstr "Bерхний"
+
+#: include/admin/wcatcbll_general_settings.php:258
+msgid "Right"
+msgstr "Правильно"
+
+#: include/admin/wcatcbll_general_settings.php:262
+msgid "Bottom"
+msgstr "Низ"
+
+#: include/admin/wcatcbll_general_settings.php:266
+msgid "Left"
+msgstr "Осталось"
+
+#: include/admin/wcatcbll_general_settings.php:273
+msgid "Button icon"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/admin/wcatcbll_general_settings.php:287
+msgid "Button icon Position"
+msgstr "Nользовательская позиция кнопки"
+
+#: include/admin/wcatcbll_general_settings.php:298
+msgid "2D Transitions"
+msgstr "2D переходы"
+
+#: include/admin/wcatcbll_general_settings.php:298
+msgid "2D Transitions hover on Add to Cart Button"
+msgstr "2D переходы на кнопку Добавить в корзину"
+
+#: include/admin/wcatcbll_general_settings.php:312
+msgid "Background Transitions"
+msgstr "2D переходы"
+
+#: include/admin/wcatcbll_general_settings.php:312
+msgid "Add to Cart Button Background Transitions on hover"
+msgstr "2D переходы на кнопку Добавить в корзину"
+
+#: include/admin/wcatcbll_general_settings.php:332
+msgid " For Pro version demo, please"
+msgstr "Для демонстрации версии Pro, пожалуйста,"
+
+#: include/admin/wcatcbll_general_settings.php:332
+msgid "Click Here"
+msgstr "Кликните сюда"
+
+#: include/admin/wcatcbll_setting_shortcode.php:17
+msgid "Anywhere you can show product using this shortcode"
+msgstr "Везде, где вы можете показать продукт, используя этот шорткод"
+
+#: include/functions.php:9
+msgid "CATCBNL"
+msgstr "CATCBNL"
+
+#: include/functions.php:9 include/wcatcbll_widget.php:18
+msgid "Custom Cart Button"
+msgstr "Пользовательская кнопка Дисплей"
+
+#: include/wcatcbll_inscrpt.php:26
+msgid "There are no exporting data in your selection fields"
+msgstr "В полях выбора нет данных для экспорта"
+
+#: include/wcatcbll_inscrpt.php:41 include/wcatcbll_metabox.php:34
+#: include/wcatcbll_metabox.php:53
+msgid "Label"
+msgstr "Mетка"
+
+#: include/wcatcbll_inscrpt.php:42 include/wcatcbll_metabox.php:38
+#: include/wcatcbll_metabox.php:57
+msgid "Url"
+msgstr "Веб-сайт"
+
+#: include/wcatcbll_inscrpt.php:43 include/wcatcbll_metabox.php:36
+#: include/wcatcbll_metabox.php:55
+msgid "Add To Basket or Shop Now or Shop on Amazon"
+msgstr ""
+"Добавить в корзину или делать покупки сейчас или делать покупки на Amazon"
+
+#: include/wcatcbll_inscrpt.php:44 include/wcatcbll_metabox.php:36
+#: include/wcatcbll_metabox.php:55
+msgid "This text will be shown on the button linking to the external product"
+msgstr "Этот текст будет показан на кнопке, ссылающейся на внешний продукт"
+
+#: include/wcatcbll_inscrpt.php:45 include/wcatcbll_metabox.php:39
+#: include/wcatcbll_metabox.php:59
+msgid "Enter the external URL to the product"
+msgstr "Этот текст будет показан на кнопке, ссылающейся на внешний продукт"
+
+#: include/wcatcbll_metabox.php:4
+msgid "Product Custom Button Settings"
+msgstr "Пользовательская кнопка для каждого продукта"
+
+#: include/wcatcbll_metabox.php:25 include/wcatcbll_metabox.php:46
+msgid "Add New"
+msgstr "Открыть ссылку в новой вкладке"
+
+#: include/wcatcbll_metabox.php:30 include/wcatcbll_metabox.php:50
+msgid "Remove"
+msgstr "Yдалять"
+
+#: include/wcatcbll_settings.php:22
+msgid "You do not have sufficient permissions to access this page"
+msgstr "У вас недостаточно прав для доступа к этой странице"
+
+#: include/wcatcbll_widget.php:22
+msgid "Wcatcbll Product show"
+msgstr "Пользовательская кнопка для каждого продукта"
+
+#: include/wcatcbll_widget.php:233
+msgid "New title"
+msgstr "Открыть ссылку в новой вкладке"
+
+#: include/wcatcbll_widget.php:246
+msgid "Number of products to show"
+msgstr "Количество продуктов для показа"
+
+#~ msgid ""
+#~ "Please add review ,subscribe our youtube channel and get pro feature "
+#~ "plugin"
+#~ msgstr ""
+#~ "Пожалуйста, добавьте обзор, подпишитесь на наш канал на YouTube и "
+#~ "получите плагин для профессиональных функций"
+
+#~ msgid "Support"
+#~ msgstr "Служба поддержки"
+
+#~ msgid "I would like to review this plugin"
+#~ msgstr "Я хотел бы рассмотреть этот плагин"
+
+#~ msgid "I have ideas to improve this plugin"
+#~ msgstr "У меня есть идеи, чтобы улучшить этот плагин"
+
+#~ msgid "I need help with this plugin"
+#~ msgstr "У меня есть идеи, чтобы улучшить этот плагин"
+
+#~ msgid "Enter your email address.."
+#~ msgstr "Введите ваш адрес электронной почты.."
+
+#~ msgid "Leave plugin developers any feedback here.."
+#~ msgstr "Оставляйте разработчикам плагинов любые отзывы здесь .."
+
+#~ msgid ""
+#~ "I agree that by clicking the send button below my email address and "
+#~ "comments will be send to a ServMask server"
+#~ msgstr ""
+#~ "Я согласен, что нажав кнопку «Отправить» под моим адресом электронной "
+#~ "почты, комментарии будут отправлены на сервер ServMask"
+
+#~ msgid "Send"
+#~ msgstr ""
+#~ "Я согласен, что нажав кнопку «Отправить» под моим адресом электронной "
+#~ "почты, комментарии будут отправлены на сервер ServMask"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "General"
+#~ msgstr "Общее"
