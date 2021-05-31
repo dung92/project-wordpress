@@ -1,0 +1,135 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Shipping & checkout – Localized for Vietnam\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-23 16:21+0000\n"
+"PO-Revision-Date: 2021-04-23 HO:MI+ZONE\n"
+"Language-Team: Blue Coral\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: shipping-checkout-localized-for-vietnam"
+
+#: views/options.php:41
+msgid "Currency symbol"
+msgstr ""
+
+#: views/options.php:42
+msgid "Enable/Disable currency symbol"
+msgstr ""
+
+#: views/options.php:66
+msgid "Enable/Disable supporting feature for Paypal Standard."
+msgstr ""
+
+#: views/options.php:100
+msgid "Enable/Disable supporting feature for Vietnamese wards and commune."
+msgstr ""
+
+#: views/options.php:72
+msgid "Example: 23500"
+msgstr ""
+
+#: libraries/forms.php:209
+#, php-format
+msgid "Field [%s] is hidden"
+msgstr ""
+
+#: libraries/forms.php:205
+#, php-format
+msgid "Field [%s] is optional"
+msgstr ""
+
+#: libraries/forms.php:201
+#, php-format
+msgid "Field [%s] is required"
+msgstr ""
+
+#: shipping-checkout-localized-for-vietnam.php:554 views/options.php:25
+msgid "General Settings"
+msgstr ""
+
+#: shipping-checkout-localized-for-vietnam.php:589
+msgid "Localized for Vietnam"
+msgstr ""
+
+#: views/options-menu.php:19 views/options-menu.php:21
+msgid "Need Support ?"
+msgstr ""
+
+#: views/options.php:48
+msgid "Please enter your currency symbol."
+msgstr ""
+
+#: libraries/forms.php:225
+#, php-format
+msgid "Please enter your custom text for [%s]"
+msgstr ""
+
+#: views/options.php:102
+#, php-format
+msgid ""
+"Plugin <a href=\"%s\" target=\"_blank\">States, Cities, and Places for "
+"WooCommerce</a> is required."
+msgstr ""
+
+#. Name of the plugin
+msgid "Shipping & checkout – Localized for Vietnam"
+msgstr ""
+
+#: shipping-checkout-localized-for-vietnam.php:106
+#, php-format
+msgid ""
+"Sorry, but <strong>%s</strong> recommends <a href=\"%s\" style=\"color: "
+"#0073aa;text-decoration: none;\">States, Cities, and Places for "
+"WooCommerce</a> to be installed and active."
+msgstr ""
+
+#: shipping-checkout-localized-for-vietnam.php:96
+#, php-format
+msgid ""
+"Sorry, but <strong>%s</strong> requires <a href=\"%s\" style=\"color: "
+"#0073aa;text-decoration: none;\">Woocommerce</a> to be installed and active."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Support Vietnam administrative structure (municipality/province, "
+"district/county,ward/commune), for international checkout (Paypal), also "
+"customize checkout page to suit business model."
+msgstr ""
+
+#: views/options.php:65
+msgid "Supporting Paypal Standard Gateway"
+msgstr ""
+
+#: views/options.php:99
+msgid "Vietnamese Wards"
+msgstr ""
+
+#: shipping-checkout-localized-for-vietnam.php:260 shipping-checkout-localized-for-vietnam.php:457
+msgid "Ward/commune"
+msgstr ""
+
+#: views/options.php:88
+msgid "WC Address field"
+msgstr ""
+
+#: views/options.php:52
+#, php-format
+msgid ""
+"You can change the currency position or number separator at <a href=\"%s\" "
+"target=\"_blank\">Woocommerce setting</a>."
+msgstr ""
+
+#: views/options.php:76
+#, php-format
+msgid ""
+"You can input currency exchange rate to VNĐ. Configure <a href=\"%s\" "
+"target=\"_blank\">your Paypal Standard Gateway</a>."
+msgstr ""

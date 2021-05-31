@@ -1,0 +1,359 @@
+/*=== Global ===*/
+#adminmenu #toplevel_page_woocommerce div.wp-menu-image:before {
+  content: "\e02b" !important;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.woocommerce-Price-amount.amount {
+  white-space: nowrap;
+}
+
+/*=== Notice ===*/
+.vf-notice {
+  text-align: left;
+}
+.vf-notice a {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.vf-notice .dashicons {
+  text-decoration: none;
+  line-height: 15px;
+  height: auto;
+}
+
+/*=== Checkbox Switch ===*/
+.fsw-switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+.fsw-switch .fsw-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.fsw-switch .fsw-slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.fsw-switch .fsw-slider.round {
+  border-radius: 17px;
+}
+.fsw-switch .fsw-slider.round:before {
+  border-radius: 50%;
+}
+.fsw-switch input {
+  display: none;
+}
+.fsw-switch input:checked + .fsw-slider {
+  background-color: #2196F3;
+}
+.fsw-switch input:focus + .fsw-slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+.fsw-switch input:checked + .fsw-slider:before {
+  -webkit-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/*=== From edit addresses ===*/
+#order_data {
+  padding: 20px 24px 25px !important;
+}
+#order_data .order_data_column .form-field .date-picker[name="order_date"] {
+  width: 100px !important;
+}
+#order_data .order_data_column .edit_address .address_VN._billing_country_field, #order_data .order_data_column .edit_address .address_VN._shipping_country_field {
+  display: none;
+}
+#order_data .order_data_column .edit_address .address_VN._billing_first_name_field, #order_data .order_data_column .edit_address .address_VN._shipping_first_name_field, #order_data .order_data_column .edit_address .address_VN._billing_address_1_field, #order_data .order_data_column .edit_address .address_VN._shipping_address_1_field, #order_data .order_data_column .edit_address .address_VN._billing_address_2_field, #order_data .order_data_column .edit_address .address_VN._shipping_address_2_field, #order_data .order_data_column .edit_address .address_VN._billing_city_field, #order_data .order_data_column .edit_address .address_VN._shipping_city_field, #order_data .order_data_column .edit_address .address_VN._billing_state_field, #order_data .order_data_column .edit_address .address_VN._shipping_state_field, #order_data .order_data_column .edit_address .address_VN._billing_country_field, #order_data .order_data_column .edit_address .address_VN._shipping_country_field, #order_data .order_data_column .edit_address .address_VN._shipping_phone_field {
+  width: 100%;
+  clear: both;
+}
+
+/*=== Table Style ===*/
+.toplevel_page_friendstore table.form-table {
+  margin: 0;
+  position: relative;
+  table-layout: fixed;
+}
+.toplevel_page_friendstore table.form-table .forminp-radio ul {
+  margin: 0;
+}
+.toplevel_page_friendstore table.form-table .forminp-radio ul li {
+  line-height: 1.4em;
+}
+.toplevel_page_friendstore table.form-table input[type=email],
+.toplevel_page_friendstore table.form-table input[type=number],
+.toplevel_page_friendstore table.form-table input[type=text] {
+  height: auto;
+}
+.toplevel_page_friendstore table.form-table textarea.input-text {
+  height: 100%;
+  min-width: 150px;
+  display: block;
+}
+.toplevel_page_friendstore table.form-table input.regular-input,
+.toplevel_page_friendstore table.form-table input[type=date],
+.toplevel_page_friendstore table.form-table input[type=datetime-local],
+.toplevel_page_friendstore table.form-table input[type=datetime],
+.toplevel_page_friendstore table.form-table input[type=email],
+.toplevel_page_friendstore table.form-table input[type=number],
+.toplevel_page_friendstore table.form-table input[type=password],
+.toplevel_page_friendstore table.form-table input[type=tel],
+.toplevel_page_friendstore table.form-table input[type=text],
+.toplevel_page_friendstore table.form-table input[type=time],
+.toplevel_page_friendstore table.form-table input[type=url],
+.toplevel_page_friendstore table.form-table input[type=week],
+.toplevel_page_friendstore table.form-table textarea {
+  width: 400px;
+  margin: 0;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: top;
+}
+.toplevel_page_friendstore table.form-table input[type=date],
+.toplevel_page_friendstore table.form-table input[type=datetime-local],
+.toplevel_page_friendstore table.form-table input[type=tel],
+.toplevel_page_friendstore table.form-table input[type=time],
+.toplevel_page_friendstore table.form-table input[type=week] {
+  width: 200px;
+}
+.toplevel_page_friendstore table.form-table select {
+  width: 400px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: top;
+}
+.toplevel_page_friendstore table.form-table input[size] {
+  width: auto !important;
+}
+.toplevel_page_friendstore table.form-table table input.regular-input,
+.toplevel_page_friendstore table.form-table table input[type=email],
+.toplevel_page_friendstore table.form-table table input[type=number],
+.toplevel_page_friendstore table.form-table table input[type=text],
+.toplevel_page_friendstore table.form-table table select,
+.toplevel_page_friendstore table.form-table table textarea {
+  width: auto;
+}
+.toplevel_page_friendstore table.form-table textarea.wide-input {
+  width: 100%;
+}
+.toplevel_page_friendstore table.form-table .fow-help-tip, .toplevel_page_friendstore table.form-table img.help_tip {
+  padding: 0;
+  margin: -4px 0 0 5px;
+  vertical-align: middle;
+  cursor: help;
+  line-height: 1;
+}
+.toplevel_page_friendstore table.form-table span.help_tip {
+  cursor: help;
+  color: #2ea2cc;
+}
+.toplevel_page_friendstore table.form-table th {
+  position: relative;
+  padding-right: 24px;
+}
+.toplevel_page_friendstore table.form-table th label {
+  position: relative;
+  display: block;
+}
+.toplevel_page_friendstore table.form-table th label .fow-help-tip,
+.toplevel_page_friendstore table.form-table th label img.help_tip {
+  margin: -8px -24px 0 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.toplevel_page_friendstore table.form-table th label + .fow-help-tip {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.toplevel_page_friendstore table.form-table .select2-container {
+  vertical-align: top;
+  margin-bottom: 3px;
+  min-width: 400px !important;
+}
+.toplevel_page_friendstore table.form-table .select2-container + span.description {
+  display: block;
+  margin-top: 8px;
+}
+.toplevel_page_friendstore table.form-table table.widefat th {
+  padding-right: inherit;
+}
+.toplevel_page_friendstore table.form-table .wp-list-table .fow-help-tip {
+  float: none;
+}
+.toplevel_page_friendstore table.form-table fieldset {
+  margin-top: 4px;
+}
+.toplevel_page_friendstore table.form-table fieldset .fow-help-tip, .toplevel_page_friendstore table.form-table fieldset img.help_tip {
+  margin: -3px 0 0 5px;
+}
+.toplevel_page_friendstore table.form-table fieldset p.description {
+  margin-bottom: 8px;
+}
+.toplevel_page_friendstore table.form-table fieldset:first-child {
+  margin-top: 0;
+}
+.toplevel_page_friendstore table.form-table .iris-picker {
+  z-index: 100;
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.toplevel_page_friendstore table.form-table .iris-picker .ui-slider {
+  border: 0 !important;
+  margin: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  background: none transparent !important;
+}
+.toplevel_page_friendstore table.form-table .iris-picker .ui-slider .ui-slider-handle {
+  margin-bottom: 0 !important;
+}
+.toplevel_page_friendstore table.form-table .iris-error {
+  background-color: #ffafaf;
+}
+.toplevel_page_friendstore table.form-table .colorpickpreview {
+  padding: 7px 0;
+  line-height: 1em;
+  display: inline-block;
+  width: 26px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+.toplevel_page_friendstore table.form-table .image_width_settings {
+  vertical-align: middle;
+}
+.toplevel_page_friendstore table.form-table .image_width_settings label {
+  margin-left: 10px;
+}
+.toplevel_page_friendstore table.form-table .image_width_settings input {
+  width: auto;
+}
+
+.woocommerce_page_wc-settings .wc-shipping-zone-settings tbody {
+  display: table-row-group;
+}
+.woocommerce_page_wc-settings .wc-shipping-zone-method-enabled {
+  width: 50px;
+}
+
+/*=== Icon Status ===*/
+.widefat .column-wc_actions a.shipping:after, .widefat .column-wc_actions a.shipped:after {
+  font-family: WooCommerce !important;
+}
+.widefat .column-wc_actions a.shipping:after {
+  content: "\e01a";
+}
+.widefat .column-wc_actions a.shipped:after {
+  content: "\e034";
+}
+
+/*=== Other Addresses ===*/
+#other_addresses_div .row-actions {
+  left: auto;
+}
+#other_addresses_div .row-actions > span a {
+  position: relative;
+}
+#other_addresses_div .row-actions > span a:after {
+  content: '';
+  border: 10px solid transparent;
+  border-bottom-color: #efefef;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  margin-left: -10px;
+  display: none;
+}
+#other_addresses_div .row-actions > span a.active:after {
+  display: block;
+}
+#other_addresses_div .fsw-address-form > td {
+  padding: 15px 20px;
+  background: #efefef;
+}
+#other_addresses_div .fsw-address-form #shipping_country_field {
+  display: none;
+}
+#other_addresses_div .fsw-address-form .address-column {
+  max-width: 500px;
+}
+#other_addresses_div .fsw-address-form .form-row label {
+  display: block;
+}
+#other_addresses_div .fsw-address-form .form-row input, #other_addresses_div .fsw-address-form .form-row textarea, #other_addresses_div .fsw-address-form .form-row select {
+  width: 100%;
+}
+#other_addresses_div .fsw-address-form .form-row input[type=checkbox], #other_addresses_div .fsw-address-form .form-row input[type=radio] {
+  width: auto;
+}
+#other_addresses_div .fsw-address-form .form-row .button {
+  width: auto;
+}
+#other_addresses_div .fsw-address-form .form-row.create-account label {
+  display: inline-block;
+}
+#other_addresses_div .fsw-address-form .form-row.woocommerce-validated input.input-text {
+  -webkit-box-shadow: inset 2px 0 0 #0f834d;
+          box-shadow: inset 2px 0 0 #0f834d;
+}
+#other_addresses_div .fsw-address-form .form-row.woocommerce-invalid input.input-text {
+  -webkit-box-shadow: inset 2px 0 0 #e2401c;
+          box-shadow: inset 2px 0 0 #e2401c;
+}
+#other_addresses_div .fsw-address-form .form-row.woocommerce-invalid input.input-checkbox {
+  outline: 2px solid #e2401c;
+  outline-offset: 1px;
+}
+#other_addresses_div .fsw-address-form .form-row.woocommerce-invalid .select2-selection {
+  border-color: #e2401c;
+  border-width: 2px;
+}
+#other_addresses_div .fsw-address-form .form-row .select2 {
+  width: 100% !important;
+}
+#other_addresses_div .fsw-address-form .form-row-last {
+  margin-right: 0 !important;
+}
+#other_addresses_div .fsw-address-form .form-row-wide {
+  clear: both;
+  width: 100%;
+}
+#other_addresses_div .fsw-address-form .submit {
+  padding-bottom: 0;
+}

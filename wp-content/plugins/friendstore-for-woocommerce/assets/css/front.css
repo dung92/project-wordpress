@@ -1,0 +1,42 @@
+.woocommerce #billing_country_field,
+.woocommerce #shipping_country_field {
+  display: none;
+}
+.woocommerce #billing_address_2_field > label {
+  width: initial !important;
+  opacity: initial !important;
+}
+.woocommerce .form-row select,
+.woocommerce .form-row .select2-container .select2-choice,
+.woocommerce .form-row .select2-container .select2-selection {
+  outline: none !important;
+}
+.woocommerce .form-row .select2-container {
+  width: 100% !important;
+}
+.woocommerce button[name="save_address"] ~ .delete-address-button {
+  margin-left: 5px;
+}
+.woocommerce .fsw_product_shipping_calculator {
+  padding-top: 1em;
+  margin-bottom: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.woocommerce .fsw_product_shipping_calculator .title {
+  font-size: 0.975em;
+  text-transform: uppercase;
+}
+.woocommerce .fsw_product_shipping_calculator .picker .fsw-shipping-destination {
+  margin-bottom: 0;
+}
+.woocommerce .fsw_product_shipping_calculator .options, .woocommerce .fsw_product_shipping_calculator form.fsw-shipping-calculator {
+  padding-top: 1em;
+}
+.woocommerce .fsw_product_shipping_calculator .fsw-shipping-calculator-button {
+  text-transform: uppercase;
+  font-size: 90%;
+}
+.woocommerce ul#shipping_method li {
+  display: inline-block;
+  width: 100%;
+}
